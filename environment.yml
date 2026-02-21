@@ -1,0 +1,10 @@
+name: silver
+channels:
+  - defaults
+dependencies:
+  - python>=3.11
+  - pip:
+      - qiskit>=1.0.2
+      - qutip>=5.0
+      - cirq>=1.3.0
+      - qiskit-aer>=0.14.0.1
